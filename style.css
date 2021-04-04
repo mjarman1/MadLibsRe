@@ -1,0 +1,8 @@
+body{background-color: #f4f4f4;}
+h1{text-align: center;background-image:url(./Holiday-Friends-Banner.jpg) ;}
+form{display: block;margin-top: 0em;}
+ul{display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 30px;}
