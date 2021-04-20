@@ -14,21 +14,25 @@
     <h1>Holiday MadLibs</h1>
     <form action>
         <ul>
-   <li> <input type="text" placeholder="Holiday"></li>
-    <li><input type="text" placeholder="Noun"></li>
-    <li><input type="text" placeholder="Place"></li>
-    <li><input type="text" placeholder="Person"></li>
-    <li><input type="text" placeholder="Adjective"></li>
-    <li><input type="text" placeholder="Body Part"></li>
-    <li><input type="text" placeholder="Verb"></li>
-    <li><input type="text" placeholder="Adjective"></li>
-    <li><input type="text" placeholder="Noun"></li>
-    <li><input type="text" placeholder="Food"></li>
-    <li><input type="text" placeholder="Plural Noun"></li>
-    <li> <button type="button">Submit</button></li>
+   <li> <input type="text" id="holiday1" placeholder="Holiday"></li>
+    <li><input type="text" id="noun1" placeholder="Noun"></li>
+    <li><input type="text" id="place1" placeholder="Place"></li>
+    <li><input type="text" id="person1" placeholder="Person"></li>
+    <li><input type="text" id="adjective1" placeholder="Adjective"></li>
+    <li><input type="text" id="body1" placeholder="Body Part"></li>
+    <li><input type="text" id="verb1" placeholder="Verb"></li>
+    <li><input type="text" id="adjective2"placeholder="Adjective"></li>
+    <li><input type="text" id="noun2" placeholder="Noun"></li>
+    <li><input type="text" id="food1" placeholder="Food"></li>
+    <li><input type="text" id="noun3" placeholder="Plural Noun"></li>
+    <li> <button type="button" onclick= "createParagraph()" >Submit</button></li>
 </ul></form>
 
-    
-    <p>I can't believe it's already ____ ! I can't wait to put on my ____ and visit every ___ This year, I am going to dress up as (a) ___ with ___ ___, Before I ___, I make sure to grab my ___ ___ to hold all of my ___. Finally, all of my ___ are ready to go!</p> </div>
+    <div id="answer"></div>
+    </div>
+
+
+
+    <script src="./app.js"></script>
 </body>
 </html>
